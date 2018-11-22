@@ -6,10 +6,9 @@
         </encoder>
     </appender>
 
-    <logger name="org.hibernate.SQL" level="ERROR" />
-    <logger name="org.eclipse.jetty" level="ERROR" />
+    <logger name="org.hibernate.SQL" level="DEBUG" />
 
-    <root level="ERROR">
+    <root level="DEBUG">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>
